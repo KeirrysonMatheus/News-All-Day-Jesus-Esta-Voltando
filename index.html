@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0"
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather&family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -60,6 +60,8 @@
 
       </p>
     </section>
+      </main>
+
 
       <section class="section2">
           <div class="Know-More">
@@ -71,129 +73,36 @@
             </div>
       </section>
 
+      <section id="comments">
+          <h2>Deixe um Comentário</h2>
+          <form action="keirrysonmatheusrodriguez@gmail.com" method="post" enctype="text/plain">
+              <label for="name">Nome:</label><br>
+              <input type="text" id="name" name="name" required><br><br>
+
+              <label for="email">Email:</label><br>
+              <input type="email" id="email" name="email" required><br><br>
+
+              <label for="comment">Comentário:</label><br>
+              <textarea id="comment" name="comment" rows="4" required></textarea><br><br>
+
+              <input type="submit" value="Enviar">
+          </form>
+      </section>
+
+
+
+    <section class="Go-Title-Container">
+
     <nav class="Go-Title">
         <div>
           <a href="#title">Voltar ao Topo</a>
         </div>
     </nav>
 
-
-  </main>
+  </section>
 
     <footer>Site criado por: Keirryson Matheus Rodriguez da Silva. Direitos Reservados.</footer>
 
-
-
-
-
-<style>
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-
-
-}
-
-body{
-  background: linear-gradient(to bottom, #000428, #004e92);
-}
-
-main{
-  background: linear-gradient(to bottom, #000428, #004e92);
-}
-
-.Jornal-Name{
-  text-align: center;
-  background-color: #1e3a8a;
-
-  padding: 50px;
-
-  font-family: 'Raleway' serif;
-  color: white;
-
-  width: 100%
-
-}
-
-.News-title{
-  margin: 10px;
-  text-align: center;
-  padding: 20px;
-  font-size: 60px;
-  font-family: 'Raleway' serif;
-  color: white;
-
-
-}
-
-.News-subtitle{
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
-  gap: 20px;
-  color: white;
-  margin: 10px;
-}
-
-.section{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 100%;
-}
-
-.News-content{
-  width: 75%;
-  word-wrap: break-word;
-
-  font-family: 'Arial', sans-serif;
-  font-size: 20px;
-  color: black;
-
-  height: 100%;
-  padding: 10px;
-  margin: 10px auto;
-  background-color: white;
-  border-radius: 10px;
-}
-
-.section2{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 100%;
-  height: 20%;
-
-}
-.Know-More{
-  width: 30%;
-  word-wrap: break-word;
-
-  color: black;
-  font-family: 'Arial', sans-serif;
-  font-size: 10px;
-  background-color: white;
-
-  border-radius: 10px;
-}
-
-
-.Go-Title{
-  background-color: white;
-  border-radius: 10px;
-  width: 15%;
-  font-size: 15px;
-}
-
-footer{
-  padding: 25px;
-  text-align: center;
-  font-size: 15px;
-  color: white;
-}
-</style>
 
 </body>
 </html>
