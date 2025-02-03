@@ -4,94 +4,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather&family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Jesus está voltando! - News all day</title>
     <link rel="icon" href="ico/jesus.ico" type="image/x-icon">
-  </head>
-
-  <body>
-
-
-    <header class="Jornal-Name" id="title">
-        <h1>NEWS ALL DAY</h1>
-    </header>
-
-
-    <main>
-      <section>
-          <h1 class="News-title">Jesus está voltando</h1>
-
-          <h3 class="News-subtitle">Um Chamado para a Reflexão Espiritual</h3>
-
-                                    <hr>
-
-          <p class="News-content">
-
-            Em um mundo marcado por incertezas, conflitos e avanços tecnológicos,
-      muitas pessoas têm voltado seus olhares para as antigas profecias bíblicas.
-      Entre elas, uma das mensagens mais impactantes é a de que Jesus Cristo está voltando.<br><br>
-
-      Líderes religiosos ao redor do mundo têm ressaltado a importância de estar
-      atento aos sinais mencionados na Bíblia, como guerras, desastres naturais e
-      transformações sociais. Segundo estudiosos, esses eventos seriam prenúncios
-      do cumprimento da promessa feita por Cristo: seu retorno para restaurar a paz
-      e a justiça no mundo.<br><br>
-
-      A mensagem "Jesus está voltando" não é apenas um alerta, mas também um convite
-      à reflexão espiritual. Milhares de pessoas têm se reunido em igrejas, praças e
-      eventos online para discutir a relevância dessa esperança nos dias atuais. Para
-      muitos, é um chamado à busca por valores como amor, compaixão e solidariedade.<br><br>
-
-      No Brasil, o tema tem ganhado destaque em campanhas evangelísticas, músicas e
-      até mesmo nas redes sociais. "Estamos vivendo tempos especiais. A mensagem de
-      que Jesus está voltando nos lembra de como é importante estarmos preparados
-      espiritualmente", afirmou o pastor José Almeida, de uma comunidade cristã em
-      São Paulo.<br><br>
-
-      Independente de crenças pessoais, a ideia de uma segunda vinda de Cristo promove
-      questões universais: como podemos viver de forma mais plena? Como podemos
-      contribuir para um mundo mais justo? Essas são perguntas que transcendem as
-      barreiras religiosas e convidam a sociedade a repensar suas prioridades.<br><br>
-
-      Para os leitores do News All Day, deixamos o convite para refletir sobre essa
-      mensagem e compartilhar suas opiniões. Afinal, em tempos de tantas mudanças,
-      talvez a esperança em algo maior seja o que muitos precisam para encontrar
-      sentido e propósito em suas vidas.<br><br>
-
-      </p>
-    </section>
-      </main>
-
-
-      <section class="section2">
-          <div class="Know-More">
-
-            <h2>Se interessou pelo assunto e quer saber mais sobre? <br>
-              <a href="https://www.youtube.com/watch?v=4v-7jBLD89k">Clique aqui</a> para saber mais.
-            </h2>
-
-            </div>
-      </section>
-                                                <hr>
-      <section id="comments">
-
-          <h2>Deixe um Comentário:</h2>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSctCKd4_Qc4XPIZyOhxHC9t1Vo-bJtJVqx0Bk9ZarF4kKvuWA/viewform?usp=header">https://docs.google.com/forms/</a>
-
-      </section>
-
-
-
-    <section class="Go-Title-Container">
-
-    <nav class="Go-Title">
-        <div>
-          <a href="#title">Voltar ao Topo</a>
-        </div>
-    </nav>
-
-  </section>
-
-    <footer>Site criado por: Keirryson Matheus Rodriguez da Silva. Direitos Reservados.</footer>
 
     <style>
       
@@ -105,24 +20,33 @@
 
 body{
   background: linear-gradient(to bottom, #000428, #004e92);
+  margin: 0px;
 }
 
 main{
   background: linear-gradient(to bottom, #000428, #004e92);
+  margin: 0px;
+  display: inline-block;
+
+
+
 }
 
 .Jornal-Name{
   text-align: center;
   background-color: #1e3a8a;
-
+  text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
   padding: 50px;
 
   font-family: 'Raleway', sans-serif;
   color: white;
 
-  width: 100%
+  width: 100%;
+
 
 }
+
+
 
 .News-title{
   margin: 10px;
@@ -151,7 +75,7 @@ main{
 }
 
 .News-content{
-  width: 75%;
+  width: 70%;
   word-wrap: break-word;
 
   font-family: 'Arial', sans-serif;
@@ -164,7 +88,17 @@ main{
   margin: 10px auto;
   background-color: white;
   border-radius: 10px;
+
 }
+
+
+
+.Another-Things{
+
+  background-color: #004e92;
+
+}
+
 
 .section2{
   display: flex;
@@ -174,18 +108,21 @@ main{
   width: 100%;
   height: 20%;
 
+
 }
 .Know-More{
   width: 30%;
   word-wrap: break-word;
-
-  color: black;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  color: #333;
   font-family: 'Arial', sans-serif;
   font-size: 10px;
+
   background-color: white;
 
   border-radius: 10px;
   margin: 10px;
+
 }
 
 #comments {
@@ -195,12 +132,12 @@ main{
     background: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     text-align: center;
 }
 
 #comments h2 {
-    color: #1e3a8a;
+    color: #333;
     margin-bottom: 20px;
 }
 
@@ -223,7 +160,9 @@ justify-content: center;
   font-size: 15px;
   font-family: 'Arial', sans-serif;
   text-align: center;
-  text-decoration: none;
+  color: red;
+  padding: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 hr {
@@ -241,9 +180,94 @@ footer{
   text-align: center;
   font-size: 15px;
   color: white;
+  background-color: black;
+  margin: 10px 0px 0px;
+
 }
 
     </style>
+  </head>
+
+  <body>
+
+
+    <header class="Jornal-Name" id="title">
+        <h1>NEWS ALL DAY</h1>
+    </header>
+
+
+    <main>
+      <section>
+          <h1 class="News-title">Jesus está voltando</h1>
+
+          <h3 class="News-subtitle">Um Chamado para a Reflexão Espiritual</h3>
+
+                                    <hr>
+
+          <p class="News-content">
+
+            Em um mundo cada vez mais conturbado, onde as notícias nos apresentam diariamente cenários de guerras, desastres naturais, crises sociais e avanços tecnológicos que desafiam nossa compreensão, muitos de nós, cristãos, temos encontrado refúgio e esperança nas promessas eternas da Palavra de Deus. Entre essas promessas, uma se destaca como um farol em meio à escuridão: a certeza de que Jesus Cristo está voltando.
+
+<br><br>
+
+A Bíblia nos alerta sobre os sinais que precederão a Sua vinda, e é impossível não olhar ao redor e ver o cumprimento dessas profecias. Em Mateus 24, o próprio Jesus nos fala sobre guerras, rumores de guerras, fomes, terremotos e perseguições como "o princípio das dores". Para nós, que cremos, esses não são apenas eventos aleatórios, mas sinais claros de que o Senhor está preparando o mundo para o Seu retorno. É como se Ele estivesse nos sussurrando: "Estou às portas".
+
+<br><br>
+
+Mas a mensagem de que Jesus está voltando não é apenas um alerta sobre o futuro; é um chamado urgente para o presente. É um convite para examinarmos nossos corações, renovarmos nossa fé e vivermos de maneira que glorifique a Deus. Afinal, como está escrito em 2 Pedro 3:11-12, "Que tipo de pessoas é necessário que vocês sejam? Vivam de maneira santa e piedosa, esperando o dia de Deus e apressando a sua vinda." Essa esperança não nos leva ao medo, mas à ação — à busca por uma vida de santidade, amor ao próximo e dedicação ao Reino.
+
+<br><br>
+
+Aqui no Brasil, essa mensagem tem tocado profundamente o coração de muitos. Em igrejas, praças e até nas redes sociais, vemos irmãos e irmãs se reunindo para compartilhar essa esperança. Músicas, pregações e campanhas evangelísticas têm ecoado a verdade de que Cristo em breve voltará. Como disse o pastor José Almeida, de São Paulo, "Estamos vivendo dias proféticos, e a volta de Jesus é a maior esperança que temos. Precisamos estar preparados, vivendo em santidade e anunciando essa boa notícia a todos."
+
+<br><br>
+
+Para nós, cristãos, a volta de Jesus não é apenas um evento futuro; é uma realidade que transforma o nosso hoje. Ela nos lembra de que este mundo não é o nosso lar definitivo e que nossa missão é viver como embaixadores do Reino, levando amor, justiça e compaixão a um mundo que tanto precisa. É um chamado para vivermos de maneira intencional, sabendo que cada dia é uma oportunidade para servir a Deus e ao próximo.
+
+<br><br>
+
+E, por isso, queridos irmãos e irmãs, deixamos um convite para todos que estão lendo estas palavras: reflitam sobre essa mensagem. Examinem suas vidas à luz da Palavra de Deus. Estejam preparados, pois ninguém sabe o dia nem a hora (Mateus 24:36). Mas uma coisa é certa: Jesus está voltando, e essa é a mais doce e gloriosa esperança que podemos ter. Que possamos viver cada dia com os olhos fixos nEle, anunciando Sua volta e compartilhando Seu amor até que Ele venha.
+
+<br><br>
+
+Maranata, Ora vem Senhor Jesus!
+      </p>
+    </section>
+
+      </main>
+
+<div class="Another-Things">
+      <section class="section2">
+          <div class="Know-More">
+
+            <h2>Se interessou pelo assunto e quer saber mais sobre? <br>
+              <a href="https://www.youtube.com/watch?v=4v-7jBLD89k">Clique aqui</a> para saber mais.
+            </h2>
+
+            </div>
+      </section>
+                                                <hr>
+      <section id="comments">
+
+          <h2>Deixe um Comentário:</h2>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSctCKd4_Qc4XPIZyOhxHC9t1Vo-bJtJVqx0Bk9ZarF4kKvuWA/viewform?usp=header">https://docs.google.com/forms/</a>
+
+      </section>
+
+
+
+    <section class="Go-Title-Container">
+
+    <nav class="Go-Title">
+        <div>
+          <a href="#title">Voltar ao Topo</a>
+        </div>
+    </nav>
+
+  </section>
+</div>
+    <footer>Site criado por: Keirryson Matheus Rodriguez da Silva. Direitos Reservados.</footer>
+
 
 </body>
 </html>
