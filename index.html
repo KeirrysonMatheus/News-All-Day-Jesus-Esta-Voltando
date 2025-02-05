@@ -9,7 +9,7 @@
     <link rel="icon" href="ico/jesus.ico" type="image/x-icon">
 
     <style>
-      
+
 *{
   padding: 0;
   margin: 0;
@@ -25,13 +25,11 @@ body{
 
 main{
   background: linear-gradient(to bottom, #000428, #004e92);
-  margin: 0px;
+  margin: -5px;
+  background-color:#1C1C1C;
   display: inline-block;
 
-
-
 }
-
 .Jornal-Name{
   text-align: center;
   background-color: #1e3a8a;
@@ -43,9 +41,25 @@ main{
 
   width: 100%;
 
-
 }
 
+nav{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  width: 100%;
+  flex-basis: auto;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+nav div{
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+
+}
 
 
 .News-title{
@@ -74,16 +88,111 @@ main{
   width: 100%;
 }
 
-.News-content{
-  width: 70%;
+  main h1{
+    text-align: center;
+    color: white;
+    margin: 5px;
+  }
+
+main p{
+  font-family: 'Arial', sans-serif;
+  font-size: 25px;
+    font-family: "Tinos", serif;
+}
+.Topico1{
+  width: 85%;
   word-wrap: break-word;
 
-  font-family: 'Arial', sans-serif;
-  font-size: 20px;
+
   color: #333;
 
 
-  height: 100%;
+  height: 90%;
+  padding: 10px;
+  margin: 10px auto;
+  background-color: white;
+  border-radius: 10px;
+
+
+}
+
+.topico2{
+  width: 85%;
+  word-wrap: break-word;
+
+
+  color: #333;
+
+
+  height: 90%;
+  padding: 10px;
+  margin: 10px auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.versiculo {
+
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-size: 20px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    margin: 10px auto;
+    border-left: 5px solid #fff;
+    width: 70%;
+    border-radius: 10px;
+  text-shadow: 0 0 10px rgba(255, 255, 0, 0.8);
+
+
+}
+
+.topico3{
+
+  width: 85%;
+  word-wrap: break-word;
+
+
+  color: #333;
+
+
+  height: 90%;
+  padding: 10px;
+  margin: 10px auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+ul{
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-size: 20px;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  margin: 20px;
+  border-left: 5px solid #fff;
+  width: 70%;
+  border-radius: 10px;
+align-items: center;
+
+}
+
+ul li{
+  margin-bottom: 10px;
+
+}
+
+.topico4{
+  width: 85%;
+  word-wrap: break-word;
+
+
+  color: #333;
+
+
+  height: 90%;
   padding: 10px;
   margin: 10px auto;
   background-color: white;
@@ -91,6 +200,35 @@ main{
 
 }
 
+.topico5{
+  width: 85%;
+  word-wrap: break-word;
+
+
+  color: #333;
+
+
+  height: 90%;
+  padding: 10px;
+  margin: 10px auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.topico6{
+  width: 85%;
+  word-wrap: break-word;
+
+
+  color: #333;
+
+
+  height: 90%;
+  padding: 10px;
+  margin: 10px auto;
+  background-color: white;
+  border-radius: 10px;
+}
 
 
 .Another-Things{
@@ -111,7 +249,8 @@ main{
 
 }
 .Know-More{
-  width: 30%;
+  height: 60px;
+  text-align: center;
   word-wrap: break-word;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   color: #333;
@@ -126,7 +265,7 @@ main{
 }
 
 #comments {
-    width: 40%;
+    width: 50%;
     height: 40%;
     margin: 30px auto;
     background: white;
@@ -154,15 +293,17 @@ justify-content: center;
 
 }
 .Go-Title{
+  color: black;
   background-color: white;
   border-radius: 10px;
-  width: 15%;
-  font-size: 15px;
+  width: 10%;
+  font-size: 10px;
   font-family: 'Arial', sans-serif;
   text-align: center;
-  color: red;
-  padding: 10px;
+  padding: 5px;
+  margin: 0px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
 }
 
 hr {
@@ -190,49 +331,165 @@ footer{
 
   <body>
 
-
     <header class="Jornal-Name" id="title">
         <h1>NEWS ALL DAY</h1>
     </header>
+    <nav>
+
+      <div class="t1">
+<a href="#t1">Introdução</a>
+      </div>
+
+
+      <div class="t2">
+<a href="#t2">Por que Jesus Voltará?</a>
+      </div>
+
+
+      <div class="t3">
+<a href="#t3">Os Sinais da Volta</a>
+      </div>
+
+
+      <div class="t4">
+<a href="#t4">Está Pronto?</a>
+      </div>
+
+
+      <div class="t5">
+<a href="#t5"> Como se Entregar a ele?</a>
+      </div>
+
+      <div class="t6">
+<a href="#t6">E Agora? </a>
+      </div>
+</nav>
 
 
     <main>
-      <section>
+
           <h1 class="News-title">Jesus está voltando</h1>
 
-          <h3 class="News-subtitle">Um Chamado para a Reflexão Espiritual</h3>
+          <h3 class="News-subtitle">Uma Mensagem de Esperança para Você!</h3>
 
                                     <hr>
 
-          <p class="News-content">
+<h1 id="t1">Introdução</h1>
+      <section class="Topico1">
 
-            Em um mundo cada vez mais conturbado, onde as notícias nos apresentam diariamente cenários de guerras, desastres naturais, crises sociais e avanços tecnológicos que desafiam nossa compreensão, muitos de nós, cristãos, temos encontrado refúgio e esperança nas promessas eternas da Palavra de Deus. Entre essas promessas, uma se destaca como um farol em meio à escuridão: a certeza de que Jesus Cristo está voltando.
+          <p>
 
-<br><br>
+            Eu não sei quem você é, onde você está agora ou o que tem passado na sua vida. Mas sei de uma coisa: você não está aqui por acaso. Se você chegou até essa mensagem, é porque Deus está te chamando.<br><br>
 
-A Bíblia nos alerta sobre os sinais que precederão a Sua vinda, e é impossível não olhar ao redor e ver o cumprimento dessas profecias. Em Mateus 24, o próprio Jesus nos fala sobre guerras, rumores de guerras, fomes, terremotos e perseguições como "o princípio das dores". Para nós, que cremos, esses não são apenas eventos aleatórios, mas sinais claros de que o Senhor está preparando o mundo para o Seu retorno. É como se Ele estivesse nos sussurrando: "Estou às portas".
+  O mundo está em caos. Olhe ao redor – guerras, fome, violência, incertezas. Você já se perguntou por que tudo isso está acontecendo? Já sentiu um vazio dentro de si, mesmo quando parece que tem tudo o que precisa?<br><br>
 
-<br><br>
+  A verdade é que nós fomos criados para algo maior. Este mundo não é o nosso destino final. Jesus Cristo está voltando! E Ele quer que você esteja preparado para esse momento.<br><br>
 
-Mas a mensagem de que Jesus está voltando não é apenas um alerta sobre o futuro; é um chamado urgente para o presente. É um convite para examinarmos nossos corações, renovarmos nossa fé e vivermos de maneira que glorifique a Deus. Afinal, como está escrito em 2 Pedro 3:11-12, "Que tipo de pessoas é necessário que vocês sejam? Vivam de maneira santa e piedosa, esperando o dia de Deus e apressando a sua vinda." Essa esperança não nos leva ao medo, mas à ação — à busca por uma vida de santidade, amor ao próximo e dedicação ao Reino.
-
-<br><br>
-
-Aqui no Brasil, essa mensagem tem tocado profundamente o coração de muitos. Em igrejas, praças e até nas redes sociais, vemos irmãos e irmãs se reunindo para compartilhar essa esperança. Músicas, pregações e campanhas evangelísticas têm ecoado a verdade de que Cristo em breve voltará. Como disse o pastor José Almeida, de São Paulo, "Estamos vivendo dias proféticos, e a volta de Jesus é a maior esperança que temos. Precisamos estar preparados, vivendo em santidade e anunciando essa boa notícia a todos."
-
-<br><br>
-
-Para nós, cristãos, a volta de Jesus não é apenas um evento futuro; é uma realidade que transforma o nosso hoje. Ela nos lembra de que este mundo não é o nosso lar definitivo e que nossa missão é viver como embaixadores do Reino, levando amor, justiça e compaixão a um mundo que tanto precisa. É um chamado para vivermos de maneira intencional, sabendo que cada dia é uma oportunidade para servir a Deus e ao próximo.
-
-<br><br>
-
-E, por isso, queridos irmãos e irmãs, deixamos um convite para todos que estão lendo estas palavras: reflitam sobre essa mensagem. Examinem suas vidas à luz da Palavra de Deus. Estejam preparados, pois ninguém sabe o dia nem a hora (Mateus 24:36). Mas uma coisa é certa: Jesus está voltando, e essa é a mais doce e gloriosa esperança que podemos ter. Que possamos viver cada dia com os olhos fixos nEle, anunciando Sua volta e compartilhando Seu amor até que Ele venha.
-
-<br><br>
-
-Maranata, Ora vem Senhor Jesus!
       </p>
     </section>
+
+
+
+  <h1 id="t2">Por que Jesus Voltará?</h1>
+    <section class="topico2">
+
+  <p>
+
+        Desde o princípio, Deus tem um plano para a humanidade. Mas o pecado nos afastou dEle. Foi por isso que Jesus veio à Terra – para nos resgatar, para morrer em nosso lugar e nos dar uma nova chance.<br><br>
+
+E essa história ainda não acabou. Jesus prometeu que voltaria para buscar aqueles que O aceitaram como Salvador. Ele disse:<br><br>
+      <span class="versiculo">
+
+    "E quando eu for e vos preparar lugar, voltarei e vos receberei para mim mesmo, para que onde eu estou, estejais vós também."<br>
+    — João 14:3 <br><br>
+
+  </span>
+Isso significa que Ele voltará para levar aqueles que creem nEle a viver eternamente ao Seu lado.
+
+  </p>
+
+    </section>
+
+<h1 id="t3">Os Sinais da Volta de Cristo Estão Aí!</h1>
+    <section class="topico3">
+<p>
+A Bíblia nos diz que antes da volta de Jesus, haveria sinais que nos alertariam. Veja alguns deles:<br>
+<ul type="a">
+  <li>Guerras e rumores de guerras – Mateus 24:6</li>
+  <li>Terremotos, fome e pestes em diversos lugares – Lucas 21:11</li>
+  <li>Pessoas cada vez mais frias, egoístas e violentas – 2 Timóteo 3:1-5</li>
+  <li>O Evangelho sendo pregado no mundo todo – Mateus 24:14</li>
+</ul>
+
+Você consegue enxergar essas coisas acontecendo? A profecia está se cumprindo diante dos nossos olhos!
+
+
+</p>
+    </section>
+
+<h1 id="t4">E Você? Está Pronto?</h1>
+    <section class="topico4">
+      <p>Talvez você esteja lendo isso e pensando: "Mas eu sou uma boa pessoa, não faço mal a ninguém. Isso já não é suficiente?"<br><br>
+
+A resposta é simples: não.<br><br>
+
+Ser uma boa pessoa não nos salva. Nenhum de nós pode se salvar sozinho, porque todos pecamos. A Bíblia diz:<br><br>
+
+<span class="versiculo">
+  "Porque todos pecaram e estão destituídos da glória de Deus."<br>
+— Romanos 3:23</span>
+<br><br>
+Mas Deus nos ama tanto que enviou Jesus para nos dar um caminho de volta a Ele. E esse caminho é através da fé nEle.<br><br>
+
+<span class="versiculo">
+  "Porque Deus amou o mundo de tal maneira que deu o seu Filho unigênito, para que todo aquele que nele crê não pereça, mas tenha a vida eterna."<br>
+  — João 3:16
+</span>
+<br><br>
+Não se trata de religião. Se trata de relacionamento com Deus.
+
+    </p>
+
+  </section >
+
+<h1 id="t5">Como Você Pode <br> Se Entregar a Cristo Hoje?</h1>
+    <section class="topico5">
+<p>
+  Se você sente que Deus está falando com você agora, não endureça o seu coração. Ele está te chamando porque te ama e quer te dar uma vida nova.<br><br>
+
+  Você pode entregar sua vida a Cristo agora mesmo! Não precisa de algo complicado. Basta uma oração sincera:<br></br>
+
+  "Senhor Jesus, eu reconheço que sou pecador e que preciso de Ti. Eu creio que morreste por mim e ressuscitaste para me dar vida eterna. Eu te aceito como meu Salvador e entrego minha vida a Ti. Muda meu coração e me ajuda a viver para Ti. Amém!"<br><br>
+
+  Se você fez essa oração de coração, parabéns! 🎉 Você acaba de dar o passo mais importante da sua vida.<br><br>
+</p>
+
+
+    </section>
+
+
+
+    <h1 id="t6">E Agora? O Que Fazer?</h1>
+    <section class="topico6">
+      <p>
+
+        Se você decidiu seguir Jesus, aqui estão os próximos passos:<br><br>
+        <ul>
+          <li>✔ Leia a Bíblia – Comece pelo Evangelho de João, para conhecer mais sobre Jesus.</li>
+          <li>✔ Ore todos os dias – Fale com Deus como falaria com um amigo.</li>
+          <li>✔ Busque uma igreja que pregue a Palavra de Deus – O caminho com Cristo não é solitário.</li>
+          <li>✔ Compartilhe sua fé com outras pessoas – Muitos também precisam conhecer essa verdade.</li>
+        </ul>
+        Jesus está voltando e Ele quer você com Ele! Não adie essa decisão. O tempo está passando, e o amanhã pode não chegar.<br>
+
+      </p>
+    </section>
+
+
+
+
+
+
 
       </main>
 
@@ -250,7 +507,7 @@ Maranata, Ora vem Senhor Jesus!
       <section id="comments">
 
           <h2>Deixe um Comentário:</h2>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSctCKd4_Qc4XPIZyOhxHC9t1Vo-bJtJVqx0Bk9ZarF4kKvuWA/viewform?usp=header">https://docs.google.com/forms/</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSctCKd4_Qc4XPIZyOhxHC9t1Vo-bJtJVqx0Bk9ZarF4kKvuWA/viewform?usp=header">https://docs.google.com/forms</a>
 
       </section>
 
