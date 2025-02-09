@@ -18,14 +18,26 @@
 
 }
 
-body{
-  background: linear-gradient(to bottom, #000428, #004e92);
-  margin: 0px;
+
+@media (max-width: 400px) {
+    body { width: 400px;}
+
 }
 
+
+
+ html , body {
+
+    background: linear-gradient(to bottom, #000428, #004e92);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+
+
+}
 main{
   background: linear-gradient(to bottom, #000428, #004e92);
-  margin: -5px;
   background-color:#1C1C1C;
   display: inline-block;
 
@@ -34,20 +46,20 @@ main{
   text-align: center;
   background-color: #1e3a8a;
   text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
-  padding: 50px;
+  padding: 60px;
 
   font-family: 'Raleway', sans-serif;
   color: white;
-
   width: 100%;
-
+  margin: 0;
+ margin-top: -20px;
 }
 
 nav{
   display: flex;
   flex-direction: row;
   margin: 10px;
-  width: 100%;
+  width: 90%;
   flex-basis: auto;
   flex-wrap: wrap;
   align-items: center;
@@ -80,27 +92,34 @@ nav div{
   margin: 10px;
 }
 
+}
 .section{
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 100%;
+  width: 50%;
 }
 
   main h1{
     text-align: center;
     color: white;
-    margin: 5px;
+    margin: 100px 0px 100px 0px;
+    font-family: "Azeret Mono", serif;
   }
+
+#t1{
+margin: 5px 0px 100px 0px;
+}
+
 
 main p{
   font-family: 'Arial', sans-serif;
   font-size: 25px;
     font-family: "Tinos", serif;
 }
-.Topico1{
-  width: 85%;
+.topico{
+  width: 75%;
   word-wrap: break-word;
 
 
@@ -113,55 +132,7 @@ main p{
   background-color: white;
   border-radius: 10px;
 
-
-}
-
-.topico2{
-  width: 85%;
-  word-wrap: break-word;
-
-
-  color: #333;
-
-
-  height: 90%;
-  padding: 10px;
-  margin: 10px auto;
-  background-color: white;
-  border-radius: 10px;
-}
-
-.versiculo {
-
-    font-family: 'Merriweather', serif;
-    font-style: italic;
-    font-size: 20px;
-    color: black;
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 10px;
-    margin: 10px auto;
-    border-left: 5px solid #fff;
-    width: 70%;
-    border-radius: 10px;
-  text-shadow: 0 0 10px rgba(255, 255, 0, 0.8);
-
-
-}
-
-.topico3{
-
-  width: 85%;
-  word-wrap: break-word;
-
-
-  color: #333;
-
-
-  height: 90%;
-  padding: 10px;
-  margin: 10px auto;
-  background-color: white;
-  border-radius: 10px;
+  opacity: 1;
 }
 
 ul{
@@ -182,52 +153,6 @@ align-items: center;
 ul li{
   margin-bottom: 10px;
 
-}
-
-.topico4{
-  width: 85%;
-  word-wrap: break-word;
-
-
-  color: #333;
-
-
-  height: 90%;
-  padding: 10px;
-  margin: 10px auto;
-  background-color: white;
-  border-radius: 10px;
-
-}
-
-.topico5{
-  width: 85%;
-  word-wrap: break-word;
-
-
-  color: #333;
-
-
-  height: 90%;
-  padding: 10px;
-  margin: 10px auto;
-  background-color: white;
-  border-radius: 10px;
-}
-
-.topico6{
-  width: 85%;
-  word-wrap: break-word;
-
-
-  color: #333;
-
-
-  height: 90%;
-  padding: 10px;
-  margin: 10px auto;
-  background-color: white;
-  border-radius: 10px;
 }
 
 
@@ -292,18 +217,21 @@ justify-content: center;
 
 
 }
+
+
 .Go-Title{
   color: black;
   background-color: white;
   border-radius: 10px;
-  width: 10%;
-  font-size: 10px;
+  width: 20%;
+  font-size: 15px;
   font-family: 'Arial', sans-serif;
   text-align: center;
   padding: 5px;
-  margin: 0px;
+  margin: 50px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   text-decoration: none;
+
 }
 
 hr {
@@ -324,12 +252,16 @@ footer{
   background-color: black;
   margin: 10px 0px 0px;
 
+
+
+
 }
 
     </style>
   </head>
 
   <body>
+
 
     <header class="Jornal-Name" id="title">
         <h1>NEWS ALL DAY</h1>
@@ -375,7 +307,7 @@ footer{
                                     <hr>
 
 <h1 id="t1">Introdução</h1>
-      <section class="Topico1">
+      <section class="topico">
 
           <p>
 
@@ -391,7 +323,7 @@ footer{
 
 
   <h1 id="t2">Por que Jesus Voltará?</h1>
-    <section class="topico2">
+    <section class="topico">
 
   <p>
 
@@ -411,7 +343,7 @@ Isso significa que Ele voltará para levar aqueles que creem nEle a viver eterna
     </section>
 
 <h1 id="t3">Os Sinais da Volta de Cristo Estão Aí!</h1>
-    <section class="topico3">
+    <section class="topico">
 <p>
 A Bíblia nos diz que antes da volta de Jesus, haveria sinais que nos alertariam. Veja alguns deles:<br>
 <ul type="a">
@@ -428,7 +360,7 @@ Você consegue enxergar essas coisas acontecendo? A profecia está se cumprindo 
     </section>
 
 <h1 id="t4">E Você? Está Pronto?</h1>
-    <section class="topico4">
+    <section class="topico">
       <p>Talvez você esteja lendo isso e pensando: "Mas eu sou uma boa pessoa, não faço mal a ninguém. Isso já não é suficiente?"<br><br>
 
 A resposta é simples: não.<br><br>
@@ -453,7 +385,7 @@ Não se trata de religião. Se trata de relacionamento com Deus.
   </section >
 
 <h1 id="t5">Como Você Pode <br> Se Entregar a Cristo Hoje?</h1>
-    <section class="topico5">
+    <section class="topico">
 <p>
   Se você sente que Deus está falando com você agora, não endureça o seu coração. Ele está te chamando porque te ama e quer te dar uma vida nova.<br><br>
 
@@ -470,7 +402,7 @@ Não se trata de religião. Se trata de relacionamento com Deus.
 
 
     <h1 id="t6">E Agora? O Que Fazer?</h1>
-    <section class="topico6">
+    <section class="topico">
       <p>
 
         Se você decidiu seguir Jesus, aqui estão os próximos passos:<br><br>
@@ -484,11 +416,6 @@ Não se trata de religião. Se trata de relacionamento com Deus.
 
       </p>
     </section>
-
-
-
-
-
 
 
       </main>
@@ -524,6 +451,7 @@ Não se trata de religião. Se trata de relacionamento com Deus.
   </section>
 </div>
     <footer>Site criado por: Keirryson Matheus Rodriguez da Silva. Direitos Reservados.</footer>
+
 
 
 </body>
